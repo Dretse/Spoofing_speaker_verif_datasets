@@ -15,6 +15,8 @@ Datasets| From | Speakers | Files | Associated csv<br>
 **VST_valid**   | *VCTK*       | 100  | 3860    | VCTK_valid.csv<br>
 **E_VST_Test**  | *VCTK*       | 10   |  3671   | VCTK_test.csv<br>
 
+VoxCeleb2_train.csv is not available here due to its large size.
+
 ## Reading the files
 We advise you to import them using [pandas library](https://pandas.pydata.org/) and use them with the [sidekit library](https://projets-lium.univ-lemans.fr/sidekit/).<br>
 Each speech utterance is represented as a line, and  the files contain the following columns :
